@@ -1,0 +1,29 @@
+:root{
+  --gradient: linear-gradient(90deg, #6f42c1, #0d6efd);
+}
+
+html { scroll-behavior: smooth; }
+
+.hero-section {
+  background: radial-gradient(1200px 600px at 10% 10%, rgba(13,110,253,.08), transparent),
+              radial-gradient(1000px 600px at 90% 10%, rgba(111,66,193,.08), transparent);
+}
+
+.gradient-text {
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero-image { max-height: 360px; object-fit: cover; }
+
+/* Cards */
+.card img { object-fit: cover; height: 180px; }
+
+/* Utilities */
+.badge { font-size: .9rem; padding: .6em .75em; border-radius: 999px; }
+
+/* Footer */
+footer { background-color: #fff; }
